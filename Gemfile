@@ -29,6 +29,7 @@ group :development, :test do
 end
 
 group :test do
+  gem "oj"
   gem "capybara"
   gem "draft_matchers"
   gem "rspec"
